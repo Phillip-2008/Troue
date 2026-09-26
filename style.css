@@ -43,7 +43,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBo
 .SaveTheDate {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 100%;
   
   position: absolute;
   top: 2%;
@@ -53,9 +53,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBo
 
 #Divider1 {
     position: absolute;
-    width: 85%;            /* Bepaal hoe groot dit moet wees */
-    left: 5vh;
-    top: 21vh;
+    width: 75%;            /* Bepaal hoe groot dit moet wees */
+    left: 10%;
+    top: 30%;
 }
 
 #Div1 {
@@ -70,9 +70,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBo
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-size: 90px;
+    font-size: 300%;
     color: rgb(252, 252, 252);
-    margin-top: 10vh;
+    margin-top: 10%;
 
     font-family: "Tangerine", cursive;
     font-weight: 700;
