@@ -141,9 +141,15 @@
 }
 
 .Fotos {
-    background-color: aqua;
+    background-image: url("BG5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     width: 100%;
-    min-height: 30dvh;
+    min-height: 100vh;
+
+
 }
 
 /* SKOP slegs in op fone (skerms smaler as 768px) */
