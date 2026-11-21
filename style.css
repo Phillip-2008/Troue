@@ -11,6 +11,8 @@
 .Kleredrag,
 .Reels {
     background-size: 100% 100%;
+    margin: 0%;
+    padding: 0%;
 }
 
 .NooiBoodskap {
@@ -21,7 +23,8 @@
     background-repeat: no-repeat;
 
     width: 100%;
-    min-height: 10vh;
+    min-height: 98%;
+    max-height: 100%;
     padding: 5%;
 
     display: flex;
@@ -159,7 +162,68 @@
     width: 100%;
     min-height: 100vh;
 
+    display: flex;
+    flex-direction: column;
+}
 
+.Fotos1{
+    display: flex;
+    flex-direction: row;
+}
+
+#Foto1 {
+    height: 50%;
+    width: 20%;
+    object-fit: cover;
+    padding: 2.5px;
+}
+
+#Foto2 {
+    height: 50%;
+    width: 20%;
+    object-fit: cover;
+    padding: 2.5px;
+}
+
+#Foto3 {
+    height: 50%;
+    width: 20%;
+    object-fit: cover;
+    padding: 2.5px;
+}
+
+#Foto4 {
+    height: 50%;
+    width: 20%;
+    object-fit: cover;
+    padding: 2.5px;
+}
+
+.Fotos2{
+    display: flex;
+    flex-direction: row;
+}
+
+#Foto5 {
+    margin-left: 40%;
+    height: 50%;
+    width: 20%;
+    object-fit: cover;
+    padding: 2.5px;
+}
+
+#Foto6 {
+    height: 50%;
+    width: 20%;
+    object-fit: cover;
+    padding: 2.5px;
+}
+
+#Foto7 {
+    height: 50%;
+    width: 20%;
+    object-fit: cover;
+    padding: 2.5px;
 }
 
 /* RSVP ############################################################# */
@@ -206,7 +270,7 @@
 @media screen and (max-width: 768px) {
 
     .NooiBoks {
-        max-height: 450px;
+        max-height: 400px;
     }
 
 }
