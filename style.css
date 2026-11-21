@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.Fotos,
+.RSVP,
+.Map,
+.Gastehuise,
+.Kleredrag,
+.Reels {
+    background-size: 100% 100%;
+}
+
 .NooiBoodskap {
     
     background-image: url("BG3.jpeg");
@@ -194,15 +203,10 @@
 
 
 
-/* SKOP slegs in op fone (skerms smaler as 768px) */
 @media screen and (max-width: 768px) {
+
     .NooiBoks {
-        min-height: 60dvh;            /* Maak die kaart effens meer kompak op fone */
-        padding: 70px 20px 60px 20px; /* Gee ruimte bo/onder sodat niks oor die hoekblomme val nie */
-        justify-content: space-evenly; /* Versprei Save The Date en AM-Box natuurlik oor die hele kaart */
+        min-height: 450px;
     }
 
-    .AM-Box {
-        margin: 0;                    /* Verwyder ekstra marge sodat space-evenly die spasies beheer */
-    }
 }
