@@ -140,6 +140,8 @@
     right: 2vh;
 }
 
+/*Fotos Divider ########################################################################### */
+
 .Fotos {
     background-image: url("BG5.png");
     background-size: cover;
@@ -151,6 +153,47 @@
 
 
 }
+
+/* RSVP ############################################################# */
+
+.RSVP {
+    
+    background-image: url("BG3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Map ############################################################# */
+
+.Map {
+    
+    background-image: url("BG5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Guesthouse #########################################################*/
+
+.Gastehuise {
+
+    background-image: url("BG3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+}
+
+
 
 /* SKOP slegs in op fone (skerms smaler as 768px) */
 @media screen and (max-width: 768px) {
